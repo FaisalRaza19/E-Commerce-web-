@@ -1,0 +1,112 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: url(pi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.container{
+    display: inline;
+    position: absolute;
+}
+.container h1{
+    font-size: 55px;
+    color: #fff;
+    margin: 2.7em 3em;
+}
+.container p{
+    margin: -6.6em 9em;
+    font-size: 19px;
+    color: #fff;
+    line-height: 29px;
+}
+ .container a i{
+      display: inline-block;
+      position: relative;
+      margin: 7em 20px;
+      font-size: 29px;
+      color: #fff;
+      left: 7em;
+ }
+.card{
+    display: flex;
+    position: relative;
+    float: right;
+    margin: 11em 17em;
+    background: transparent !important;
+    border: 2px solid #fff !important;
+    background-color: #ffffff2d !important;
+}
+ .card .card-body h1{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+ }
+ .card .card-body label{
+     font-size: 20px;
+     margin: 10px 5px;
+     color: #fff;
+ }
+ .card .card-body input{
+     margin: -10px 10px;
+     border: 2px solid black;
+     outline: 0;
+     background: transparent;
+     width: 270px;
+     height: 35px;
+     border-radius: 8px;
+     font-size: 18px;
+     padding-left: 10px;
+ }
+ .card .card-body #pass,#mail{
+     text-align: center;
+     margin: 25px 0;
+     margin-bottom: -7px;
+     color: rgba(253, 12, 12, 0.639);
+     font-weight: bold;
+     font-size: 17px;
+ }
+ .card .card-body #new{
+     display: flex;
+     position: relative;
+     margin-top: 20px;
+     font-size: 18px;
+     margin-left: -12px;
+ }
+ .card .card-body #me{
+     float: right;
+     display: flex;
+     position: relative;
+     font-size: 18px;
+     margin: -2.2em 0;
+     cursor: pointer;
+ } 
+ #btn{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    margin: 2em 3em;
+    margin-bottom: 20px;
+    font-size: 21;
+    border: 2px solid black;
+    background-color: rgb(6, 183, 253);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+ }
+ #back{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+ }
+ #house{
+    margin: 20px 0;
+    color: #000;
+    font-size: 30px;
+ }

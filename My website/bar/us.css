@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+ .first h1{
+     font-size: 41px;
+     margin: 25px 2em;
+ }
+ .first h1 span{
+    font-size: 1.2em;
+    color: orangered;
+ }
+ .first ul{
+    float: right;
+    display: flex;
+    position: relative;
+    margin: -4em 2em;
+ }
+ .first ul li{
+    list-style: none;
+    margin: 0 20px;
+ }
+ .first ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+ }
+ #up{
+    position: relative;
+    display: flex;
+    background-color: orangered;
+    color: #fff;
+    border: 2px solid;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: -12px 0;
+ }
+ .second{
+    background-color: rgba(128, 128, 128, 0.263);
+    height: 85vh;
+ }
+ .second h1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.7em;
+    font-size: 43px;
+ }
+ .second .icon i{
+    display: inline-block;
+    font-size: 42px;
+    color: rgb(242, 91, 36);
+    margin: 1em 5em;
+ }
+ .second .title h2{
+    display: inline-block;
+    margin: -10px 6.2em;
+ }
+ .second .text .one,.two,.three{
+    display: inline-block;
+    margin: -10px;
+ }
+ .second .text .one{
+    margin: 10px 6em;
+    font-size: 20px;
+ }
+ .second .text .two{
+    margin: 0 2em;
+    font-size: 20px;
+    line-height: 30px;
+ }
+ #btn,#start{
+    width: 160px;
+    height: 55px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+ }
+ .second .text .three p{
+     position: absolute;
+     margin: -7.5em 9.8em;
+     font-size: 20px;
+ }
+ #start{
+    margin: 0 13em;
+ }
